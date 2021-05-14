@@ -1,0 +1,19 @@
+.title-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    h1 {
+        @include title($titleFontSize);
+        text-align: center;
+        @media (max-width: 768px) {
+            font-size: 60px;            
+        }
+    }
+    p {
+        font-size: $subTitleFont;
+        margin: 20px 0;
+        text-align: center;
+    }
+}

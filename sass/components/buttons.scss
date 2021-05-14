@@ -1,0 +1,7 @@
+.btn {
+    @include button;
+    transition: all .3s linear;
+    &:hover {
+        background-color: rgb(255, 38, 0);
+    }
+}

@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://media.istockphoto.com/photos/recycled-craft-paper-textured-background-in-light-faded-pale-pink-picture-id1175129917?k=6&m=1175129917&s=612x612&w=0&h=o4r-DD3cdO1zwh1T7qfbSjbLNuvACUEqkLYhWseqoTA=);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+i {
+  color: #646361;
+}
+
+.btn {
+  min-width: 100px;
+  max-width: 200px;
+  min-height: 40px;
+  background-color: #eb4411;
+  border: none;
+  margin: 20px 0;
+  color: white;
+  transition: all 0.3s linear;
+}
+.btn:hover {
+  background-color: #ff2600;
+}
+
+nav {
+  padding: 20px 0;
+}
+nav a img {
+  width: 150px;
+}
+
+.title-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+.title-content h1 {
+  font-size: 100px;
+  color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .title-content h1 {
+    font-size: 60px;
+  }
+}
+.title-content p {
+  font-size: 25px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.beauty {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.beauty .beauty-content-block {
+  display: flex;
+  flex-direction: column;
+}
+.beauty .beauty-content-block .beauty-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 20px 50px;
+  margin: 150px 0px;
+  transition: all 0.5s linear;
+}
+.beauty .beauty-content-block .beauty-content:hover {
+  transform: scale(1.05);
+}
+.beauty .beauty-content-block .beauty-content .beauty-img-block {
+  width: 400px;
+  background-position: center;
+}
+.beauty .beauty-content-block .beauty-content .beauty-img-block img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 500px) {
+  .beauty .beauty-content-block .beauty-content .beauty-img-block {
+    width: 300px;
+  }
+}
+.beauty .beauty-content-block .beauty-content .beauty-absalute-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  position: absolute;
+  bottom: -180px;
+  right: -10px;
+  background-color: white;
+  padding: 40px;
+}
+.beauty .beauty-content-block .beauty-content .beauty-absalute-block .beauty-subtitle {
+  color: #eb4411;
+}
+.beauty .beauty-content-block .beauty-content .beauty-absalute-block .beauty-subtitle-item {
+  display: flex;
+  padding: 10px 0;
+}
+@media (max-width: 576px) {
+  .beauty .beauty-content-block .beauty-content .beauty-absalute-block {
+    right: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .beauty .beauty-content-block .beauty-content {
+    padding: 20px 0;
+  }
+}
+
+footer p {
+  color: #eb4411;
+  font-size: 13px;
+  text-align: center;
+  padding: 50px;
+  margin-top: 70px;
+  background-color: #3f3e3e;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,57 @@
+.beauty {
+    display: flex;    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .beauty-content-block {
+        display: flex;
+        flex-direction: column;
+        .beauty-content {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            padding: 20px 50px;
+            margin: 150px 0px;
+            transition: all .5s linear;
+            &:hover {
+                transform: scale(1.05);
+            }
+            .beauty-img-block {
+                width: 400px;
+                background-position: center;
+                img {
+                    height: 300px;
+                    width: 100%;
+                    object-fit: cover;
+                }
+                @media (max-width: 500px) {
+                    width: 300px;
+                 }
+            }
+            .beauty-absalute-block {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 300px;
+                position: absolute;
+                bottom: -180px;
+                right: -10px;
+                background-color: $massgeBgColor;
+                padding: 40px;
+                .beauty-subtitle {
+                    color: $orangeColar;
+                }
+                .beauty-subtitle-item {
+                    display: flex;
+                    padding: 10px 0
+                }
+                @media (max-width: 576px) {
+                    right: 0px;
+                }
+            }
+            @media (max-width: 576px) {
+               padding: 20px 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@mixin containerClass {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+@mixin title ($size) {
+    font-size: $size;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@mixin titleMedia {
+    font-size: 50px;
+    color: $orangeColar;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@mixin button {
+    min-width: 100px;
+    max-width: 200px;
+    min-height: 40px;
+    background-color: $orangeColar;
+    border: none;
+    margin: 20px 0;
+    color: white;
+}
